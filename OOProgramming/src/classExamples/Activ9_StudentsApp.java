@@ -11,7 +11,7 @@ public class Activ9_StudentsApp {
 //		Activity9_Students stu2 = new Activity9_Students("Pablo", 26);
 //		Activity9_Students stu3 = new Activity9_Students("Abel", 23);
 
-		Activity9_Students[]daw1= new Activity9_Students[10];
+		Activity9_Students[]daw1= new Activity9_Students[5];
 		
 		for(int i=0; i<daw1.length; i++) {
 			daw1[i]=new Activity9_Students(/*ask name*/, /*ask age*/);
