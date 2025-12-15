@@ -33,6 +33,7 @@ public class Activity9_Students {
 		name = nombre;
 	}
 
+	//conviene que los setters y los getters no sean void y nos devuelvan el valor
 	public void setAge(int age) {
 		if (age > 0 && age < 120) {
 			this.age = age;
