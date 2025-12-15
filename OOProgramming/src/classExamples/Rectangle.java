@@ -15,26 +15,26 @@ package classExamples;
  * choose()
  */
 public class Rectangle {
-	private float shortSize, longSize;
+	private int shortSize, longSize;
 
-	public Rectangle(float int side1, float side2) {
+	public Rectangle(int side1, int side2) {
 		setShortSize(side1);
 		setLongSize(side2);
 	}
 	
-	public float getShortSize() {
+	public int getShortSize() {
 		return shortSize;
 	}
 
-	public void setShortSize(float shortSize) {
+	public void setShortSize(int shortSize) {
 		this.shortSize = shortSize;			//al generar automáticamente, eclipse utiliza la palabra reservada this para nombrar al atributo
 	}
 
-	public float getLongSize() {
+	public int getLongSize() {
 		return longSize;
 	}
 
-	public void setLongSize(float longSize) {
+	public void setLongSize(int longSize) {
 		this.longSize = longSize;
 	}
 	
